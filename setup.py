@@ -62,6 +62,7 @@ setup(
             'ulog2kml=pyulog.ulog2kml:main',
             'ulog2rosbag=pyulog.ulog2rosbag:main',
             'ulog_migratedb=pyulog.migrate_db:main',
+            'ulog_unroll_fifo=pyulog.unroll_fifo:main',
         ],
     },
     packages=find_packages(),
